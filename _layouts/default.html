@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  /*<title>{{  page.title | default: site.title }}</title>*/
+  /* <title>{{  page.title | default: site.title }}</title> */
   <title>{{ "TABIHITO" }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <style>
@@ -40,7 +40,8 @@
 
 <body>
   <header>
-    <h1>{{ site.title | default: "My Study Journal" }}</h1>
+    /*<h1>{{ site.title | default: "My Study Journal" }}</h1>*/
+    <h1>{{ "TABIHITO" | default: "My Study Journal" }}</h1>    
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a> |
       <a href="{{ '/note/' | relative_url }}">Note</a> |
